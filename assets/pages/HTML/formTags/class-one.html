@@ -21,7 +21,11 @@
         <input type="number">
         <br>
         <br>
-        <!--Content Information-->
+        <label>Enter Your Date of Birth</label>
+        <input type="datetime-local">
+        <br>
+        <br>
+        <!--Contact Information-->
         <lebel>Enter Your Email:</lebel>
         <input type="email">
         <br>
@@ -34,6 +38,32 @@
         <input type="number">
         <br>
         <br>
+        <lebel for="course">Select Your Course:</lebel>
+            <select name="course" id="">
+                <optgroup label="Backend">
+                    <option value="python">python</option>
+                    <option value="java">java</option>
+                    <option value="C">C</option>
+                </optgroup>
+                <optgroup label="Frontend">
+                    <option value="Designing">Designing</option>
+                    <option value="Designing">Web Layouting</option>
+                    <option value="Designing">JavaScript</option>
+                <optgroup>Communication</optgroup>
+                </optgroup>
+                <optgroup label="communication">
+                    <option value="English">English</option>
+                    <option value="Soft-Skills">Soft-Skills</option>
+                    <option value="Interview-Practice">Interview-Practice</option>
+                </optgroup>
+
+            </select>
+            <br>
+            <br>
+            <label for="communication">Range your communication skills:</label>
+            <input type="range" name="communication" min="0" max="10" data-value="10" >
+            <br>
+            <br>
         <!--Input Type Radio-->
         <input type="radio" name="gender">
         <lebel>Male </lebel>
@@ -46,6 +76,9 @@
         <input type="checkbox"> <label>Writing</label>
         <input type="checkbox"> <label>Playing </label>
         <input type="checkbox"> <label>Swiming</label>
+        <br>
+        <br>
+        <input type="submit">
     </form>
 </body>
 
