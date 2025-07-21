@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Account Opening Form</title>
+</head>
+
+<body>
+    <h2> Welcome To Bank Opening Portal</h2>
+    <pre>
+        ╔═══════════════════════════════╗
+        ║   Please fill in the form    ║
+        ║   to open your new account   ║
+        ╚═══════════════════════════════╝
+          </pre>
+    <form>
+        <h3> Step1:👤 Personal Details </h3>
+        <fieldset>
+            <legend><strong>👤 Personal Details</strong></legend>
+
+            <label>Full Name: 👨‍💼</label><br>
+            <input placeholder="Full name"><br><br>
+
+            <label>Gender: 🚻</label><br>
+            <input type="radio" name="gender" value="Male" required> Male<br>
+            <input type="radio" name="gender" value="Female"> Female<br>
+            <input type="radio" name="gender" value="Other"> Other<br><br>
+
+            <label> Date of Birth: 📅<br></label>
+            <input type="date"><br><br>
+
+            <label> Nationality: 🌍 </label><br>
+            <input type="text" name=" Nationality" placeholder="e.g.,Indian"><br><br>
+
+            <label>Phone Number: 📞</label><br>
+            <input type="number" placeholder="+91-XXXXXXXXXX"><br><br>
+
+            <label>E-mail: 📧</label><br>
+            <input type="mail" placeholder="you@domain.com"><br><br>
+
+            <label>Aadhaar Number (12-digit):💳</label><br>
+            <input type="text" name="Addhar" placeholder="e.g.,2647 2963 7829"><br><br>
+
+            <label>Pan Card Number:💳</label><br>
+            <input type="text" name="pan" placeholder="e.g.,ABCDE1234F"><br><br>
+
+            <label></label>
+        </fieldset>
+
+        <h2>Step2:🏠 Address Detail</h2>
+        <fieldset>
+            <legend><strong>🏠 Address Detail</strong></legend>
+
+            <label>Address: </label><br>
+            <textarea name="address" id="" placeholder="Flat No ,Street,Locality"></textarea><br><br>
+
+            <label>City: 🏙️</label><br>
+            <input type="text" name="city" placeholder="e.g,pune"><br><br>
+
+            <label>State: 🗺️</label><br>
+            <input type="text" name="state" placeholder="e.g.,Maharashra"><br><br>
+
+            <label>Pincode: 🔢</label><br>
+            <input type="text" name="pincode" placeholder="e.g.400001"><br><br>
+
+        </fieldset>
+        <h2>Step3: 💳 Account Details </h2>
+        <fieldset>
+            <legend><strong>💳 Account Details</strong></legend>
+
+            Account Type:<br>
+            <select name="accounttype" required>
+                <option value="">-- Please Select Account Type --</option>
+                <option value="Savings">💰 Savings Account</option>
+                <option value="Current">🏢 Current Account</option>
+            </select><br><br>
+
+
+            Initial Deposit Amount (₹):<br>
+            <input type="number" name="deposit" placeholder="Minimum ₹500" required><br><br>
+
+            <label>Mode of Payment:💸</label><br>
+            <input type="radio" name="payment" value="Cash">Cash<br>
+            <input type="radio" name="payment" value="Cheque">Cheque<br>
+            <input type="radio" name="payment" value="Online">Online<br><br>
+
+            <label>Nominee Name (optional) </label><br>
+            <input type="text" name="" placeholder="e.g.,Sonu Mehta"><br><br>
+        </fieldset>
+        <h2>Step4: 🔐 Login Detail</h2>
+        <fieldset>
+            <legend><strong> 🔐 Login Detail</strong></legend>
+
+            <label>Username: 👤</label>
+            <input type="text" name="Username" placeholder="Choose a Username"><br><br>
+
+            <label>Password:🔑</label>
+            <input type=" text" name="Password" placeholder="Enter a Strong Password"><br><br>
+
+            <label>Comfirm Password: 🔁</label>
+            <input type="text" name="ConfirmPassword" placeholder="Re-enter your Password"><br><br>
+        </fieldset>
+        <br>
+        <input type="checkbox">✅ I agree to the terms and conditions
+        <br>
+        <br>
+        <input type="submit" value="🚀 submit">
+        <input type="reset" value="🧹 Reset">
+    </form>
+    <hr>
+    <p>🙏Thank you for choosing our Bank. Your Trust means Everything to us</p>
+</body>
+
+</html>
