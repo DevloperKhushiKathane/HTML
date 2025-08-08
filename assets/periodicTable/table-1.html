@@ -6,8 +6,10 @@
     <title>Document</title>
     <style>
         .table-one{
-            width: 100vw;
-            height: 700px;
+            border-style: solid;
+           border-width: 2px;
+           background-color: whitesmoke;
+            border: none;
         }
         .box-one{
             border-style: solid;
@@ -15,20 +17,23 @@
             border-collapse: collapse;
             text-align: center;
             background-color: rgb(253, 100, 44);
+            border: none;
         }
         .box-two{
             border-style: solid;
             border-width: 2px;
             border-collapse: collapse;
             text-align: center;
-            background-color: rgb(196, 36, 89);
+            background-color: rgb(224, 96, 139) ;
+            border: none;
         }
         .box-three{
             border-style: solid;
             border-width: 2px;
             border-collapse: collapse;
             text-align: center;
-            background-color:rgb(255, 162, 0) ;   
+            background-color:rgb(255, 162, 0) ;
+            border: none;   
         }
         .box-four{
             border-style: solid;
@@ -36,6 +41,7 @@
             border-collapse: collapse;
             text-align: center;
             background-color: rgb(255, 183, 0);
+            border: none;
         }
         .box-five{
             border-style: solid;
@@ -43,27 +49,31 @@
             border-collapse: collapse;
             text-align: center;
             background-color: rgba(137, 43, 226, 0.752);
+            border: none;
         }
         .box-six{
             border-style: solid;
             border-width: 2px;
             border-collapse: collapse;
             text-align: center;
-            background-color: violet;   
+            background-color:hotpink;
+            border: none;   
         }
         .box-seven{
             border-style: solid;
             border-width: 2px;
             border-collapse: collapse;
             text-align: center;
-            background-color:darkturquoise;  
+            background-color:darkturquoise; 
+            border: none; 
         }
         .box-eight{
             border-style: solid;
             border-width: 2px;
             border-collapse: collapse;
             text-align: center;
-            background-color:royalblue ;   
+            background-color:royalblue ;
+            border: none;   
         }
         .box-nine{
             border-style: solid;
@@ -71,20 +81,45 @@
             border-collapse: collapse;
             text-align: center;
             background-color:cornflowerblue;
+            border: none;
         }
         .box-ten{
             border-style: solid;
             border-width: 2px;
             border-collapse: collapse;
             text-align: center;
-            background-color: rgb(134, 207, 61);  
+            background-color: rgb(134, 207, 61);
+            border: none;  
+        }
+        .table-two{
+           border-style: solid;
+           border-width: 2px;
+           background-color: whitesmoke;
+            border: none;
+        }
+        .box-eleven{
+            border-style: solid;
+            border-width: 2px;
+            border-collapse: collapse;
+            text-align: center;
+            background-color:cornflowerblue; 
+            border: none; 
+        }
+        .box-twelve{
+            border-style: solid;
+            border-width: 2px;
+            border-collapse: collapse;
+            text-align: center;
+            background-color:royalblue ;
+            border: none;
         }
     </style>
+    <h1 style="text-align: center;">Periodic Table</h1>
 </head>
 <body>
-    <table class="table-one">
+    <table class="table-one" style="padding: 60px;">
         <tr>
-            <td class="box-one">H</td>
+            <td class="box-one">1 <br> H</td>
             <td colspan="16" class=""></td>
             <!-- <td class="">3</td> -->
             <!-- <td class="">4</td> -->
@@ -101,11 +136,11 @@
             <!-- <td class="">He</td> -->
             <!-- <td class="">He</td> -->
             <!-- <td class="">He</td> -->
-            <td class="box-two">He</td>
+            <td class="box-two">2 <br> He</td>
         </tr>
         <tr>
-            <td class="box-three">Li</td>
-            <td class="box-four">Be</td>
+            <td class="box-three">2 <br> Li</td>
+            <td class="box-four">3 <br> Be</td>
             <td rowspan="2" colspan="10" class=""></td>
             <!-- <td class="">4</td> -->
             <!-- <td class="">5</td> -->
@@ -116,16 +151,16 @@
             <!-- <td class="">10</td> -->
             <!-- <td class="">11</td> -->
             <!-- <td class="">12</td> -->
-            <td class="box-five">B</td>
-            <td class="box-one">C</td>
-            <td class="box-one">N</td>
-            <td class="box-one">O</td>
-            <td class="box-six">F</td>
-            <td class="box-two">Ne</td>
+            <td class="box-five">5 <br> B</td>
+            <td class="box-one">6 <br> C</td>
+            <td class="box-one">7 <br> N</td>
+            <td class="box-one">8 <br> O</td>
+            <td class="box-six">9 <br> F</td>
+            <td class="box-two">10 <br> Ne</td>
         </tr>
         <tr>
-            <td class="box-three">Na</td>
-            <td class="box-four">Mg</td>
+            <td class="box-three">11 <br> Na</td>
+            <td class="box-four">12 <br> Mg</td>
             <!-- <td class="">3</td> -->
             <!-- <td class="">4</td> -->
             <!-- <td class="">5</td> -->
@@ -136,92 +171,134 @@
             <!-- <td class="">10</td> -->
             <!-- <td class="">11</td> -->
             <!-- <td class="">12</td> -->
-            <td class="box-seven">Al</td>
-            <td class="box-five">Si</td>
-            <td class="box-one">P</td>
-            <td class="box-one">S</td>
-            <td class="box-six">Cl</td>
-            <td class="box-two">Ar</td>
+            <td class="box-seven">13 <br> Al</td>
+            <td class="box-five">14 <br> Si</td>
+            <td class="box-one">15 <br> P</td>
+            <td class="box-one">16 <br> S</td>
+            <td class="box-six">17 <br> Cl</td>
+            <td class="box-two">18 <br> Ar</td>
         </tr>
         <tr>
-            <td class="box-three">K</td>
-            <td class="box-four">Ca</td>
-            <td class="box-ten">Sc</td>
-            <td class="box-ten">Ti</td>
-            <td class="box-ten">V</td>
-            <td class="box-ten">Cr</td>
-            <td class="box-ten">Mn</td>
-            <td class="box-ten">Fe</td>
-            <td class="box-ten">Co</td>
-            <td class="box-ten">Ni</td>
-            <td class="box-ten">Cu</td>
-            <td class="box-ten">Zn</td>
-            <td class="box-seven">Ga</td>
-            <td class="box-five">Ge</td>
-            <td class="box-five">As</td>
-            <td class="box-one">Se</td>
-            <td class="box-six">Br</td>
-            <td class="box-two">Kr</td>
+            <td class="box-three">19 <br> K</td>
+            <td class="box-four">20 <br> Ca</td>
+            <td class="box-ten">21 <br> Sc</td>
+            <td class="box-ten">22 <br> Ti</td>
+            <td class="box-ten">23 <br> V</td>
+            <td class="box-ten">24 <br> Cr</td>
+            <td class="box-ten">25 <br> Mn</td>
+            <td class="box-ten">26 <br> Fe</td>
+            <td class="box-ten">27 <br> Co</td>
+            <td class="box-ten">28 <br> Ni</td>
+            <td class="box-ten">29 <br> Cu</td>
+            <td class="box-ten">30 <br> Zn</td>
+            <td class="box-seven">31 <br> Ga</td>
+            <td class="box-five">32 <br> Ge</td>
+            <td class="box-five">33 <br> As</td>
+            <td class="box-one">34 <br> Se</td>
+            <td class="box-six">35 <br> Br</td>
+            <td class="box-two">36 <br> Kr</td>
         </tr>
         <tr>
-            <td class="box-three">Rb</td>
-            <td class="box-four">Sr</td>
-            <td class="box-ten">Y</td>
-            <td class="box-ten">Zr</td>
-            <td class="box-ten">Nb</td>
-            <td class="box-ten">Mo</td>
-            <td class="box-ten">Tc</td>
-            <td class="box-ten">Ru</td>
-            <td class="box-ten">Rh</td>
-            <td class="box-ten">Pd</td>
-            <td class="box-ten">Ag</td>
-            <td class="box-ten">Cd</td>
-            <td class="box-seven">In</td>
-            <td class="box-seven">Sn</td>
-            <td class="box-five">Sb</td>
-            <td class="box-five">Te</td>
-            <td class="box-six">I</td>
-            <td class="box-two">Xe</td>
+            <td class="box-three">37 <br> Rb</td>
+            <td class="box-four">38 <br> Sr</td>
+            <td class="box-ten">39 <br>Y </td>
+            <td class="box-ten">40 <br> Zr</td>
+            <td class="box-ten">41 <br> Nb</td>
+            <td class="box-ten">42 <br> Mo</td>
+            <td class="box-ten">43 <br> Tc</td>
+            <td class="box-ten">44 <br> Ru</td>
+            <td class="box-ten">45 <br> Rh</td>
+            <td class="box-ten">46 <br> Pd</td>
+            <td class="box-ten">47 <br> Ag</td>
+            <td class="box-ten">48 <br> Cd</td>
+            <td class="box-seven">49 <br> In </td>
+            <td class="box-seven">50 <br> Sn </td>
+            <td class="box-five">51 <br> Sb</td>
+            <td class="box-five">52 <br> Te</td>
+            <td class="box-six">53 <br> I</td>
+            <td class="box-two">54 <br> Xe</td>
         </tr>
         <tr>
-            <td class="box-three">Cs</td>
-            <td class="box-four">Ba</td>
-            <td class="box-nine">La</td>
-            <td class="box-ten">Hf</td>
-            <td class="box-ten">Ta</td>
-            <td class="box-ten">W</td>
-            <td class="box-ten">Re</td>
-            <td class="box-ten">Os</td>
-            <td class="box-ten">Ir</td>
-            <td class="box-ten">Pt</td>
-            <td class="box-ten">Au</td>
-            <td class="box-ten">Hg</td>
-            <td class="box-seven">Tl</td>
-            <td class="box-seven">Pb</td>
-            <td class="box-seven">Bi</td>
-            <td class="box-five">Po</td>
-            <td class="box-six">At</td>
-            <td class="box-two">Rn</td>
+            <td class="box-three">55 <br> Cs</td>
+            <td class="box-four">56 <br> Ba</td>
+            <td class="box-nine">57 <br> La</td>
+            <td class="box-ten">72 <br> Hf</td>
+            <td class="box-ten">73 <br> Ta</td>
+            <td class="box-ten">74 <br> W</td>
+            <td class="box-ten">75 <br> Re</td>
+            <td class="box-ten">76 <br> Os</td>
+            <td class="box-ten">77 <br> Ir</td>
+            <td class="box-ten">78 <br> Pt</td>
+            <td class="box-ten">79 <br> Au</td>
+            <td class="box-ten">80 <br> Hg</td>
+            <td class="box-seven">81 <br> Tl</td>
+            <td class="box-seven">82 <br> Pb</td>
+            <td class="box-seven">83 <br> Bi</td>
+            <td class="box-five">84  <br> Po</td>
+            <td class="box-six">85 <br> At</td>
+            <td class="box-two">86 <br> Rn</td>
         </tr>
         <tr>
-            <td class="box-three">Fr</td>
-            <td class="box-four">Ra</td>
-            <td class="box-eight">Ac</td>
-            <td class="box-ten">Rf</td>
-            <td class="box-ten">Db</td>
-            <td class="box-ten">Sg</td>
-            <td class="box-ten">Bh</td>
-            <td class="box-ten">Hs</td>
-            <td class="box-ten">Mt</td>
-            <td class="box-ten">Ds</td>
-            <td class="box-ten">Rg</td>
-            <td class="box-ten">Cn</td>
-            <td class="box-seven">Nh</td>
-            <td class="box-seven">Fi</td>
-            <td class="box-seven">Mc</td>
-            <td class="box-seven">Lv</td>
-            <td class="box-six">Ts</td>
-            <td class="box-two">Og</td>
+            <td class="box-three">87 <br> Fr</td>
+            <td class="box-four">88 <br> Ra</td>
+            <td class="box-eight">89 <br> Ac</td>
+            <td class="box-ten">104 <br> Rf</td>
+            <td class="box-ten">105 <br> Db</td>
+            <td class="box-ten">106 <br> Sg</td>
+            <td class="box-ten">107 <br> Bh</td>
+            <td class="box-ten">108 <br> Hs</td>
+            <td class="box-ten">109 <br> Mt</td>
+            <td class="box-ten">110 <br> Ds</td>
+            <td class="box-ten">111 <br> Rg</td>
+            <td class="box-ten">112 <br> Cn</td>
+            <td class="box-seven">113 <br> Nh</td>
+            <td class="box-seven">114 <br> Fi</td>
+            <td class="box-seven">115 <br> Mc</td>
+            <td class="box-seven">116 <br> Lv</td>
+            <td class="box-six">117 <br> Ts</td>
+            <td class="box-two">118 <br> Og</td>
+        </tr>
+    </table>
+    <table class="table-two" style="padding-left: 110px;">
+        <tr>
+            <!-- <td rowspan="2" colspan="2" class="box-eleven"></td> -->
+            <!-- <td class="box-eleven"></td> -->
+            <td class="box-eleven">57 <br> La</td>
+            <td class="box-eleven">58 <br> Ce</td>
+            <td class="box-eleven">59 <br> Pr</td>
+            <td class="box-eleven">60 <br> Nd</td>
+            <td class="box-eleven">61 <br> Pm</td>
+            <td class="box-eleven">62 <br> Sm</td>
+            <td class="box-eleven">63 <br> Eu</td>
+            <td class="box-eleven">64 <br> Gb</td>
+            <td class="box-eleven">65 <br> Tb</td>
+            <td class="box-eleven">66 <br> Dy</td>
+            <td class="box-eleven">67 <br> Ho</td>
+            <td class="box-eleven">68 <br> Er</td>
+            <td class="box-eleven">69 <br> Tm</td>
+            <td class="box-eleven">70 <br> Yb</td>
+            <td class="box-eleven">71 <br> Lu</td>
+            <!-- <td rowspan="2" class="box-eleven"></td> -->
+        </tr>
+        <tr>
+            <!-- <td class="box-twelve"></td> -->
+            <!-- <td class="box-twelve"></td> -->
+            <td class="box-twelve">89 <br> Ac</td>
+            <td class="box-twelve">90 <br> Th</td>
+            <td class="box-twelve">91 <br> Pa</td>
+            <td class="box-twelve">92 <br> U</td>
+            <td class="box-twelve">93 <br> Np</td>
+            <td class="box-twelve">94 <br> Pu</td>
+            <td class="box-twelve">95 <br> Am</td>
+            <td class="box-twelve">96 <br> Cm</td>
+            <td class="box-twelve">97 <br> Bk</td>
+            <td class="box-twelve">98 <br> Cf</td>
+            <td class="box-twelve">99 <br> Es</td>
+            <td class="box-twelve">100 <br> Fm</td>
+            <td class="box-twelve">101 <br> Md</td>
+            <td class="box-twelve">102 <br> No</td>
+            <td class="box-twelve">103 <br> Lr</td>
+            <!-- <td class="box-twelve"></td> -->
         </tr>
     </table>
 </body>
