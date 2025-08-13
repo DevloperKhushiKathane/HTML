@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pro3</title>
+        <style>
+            .main-container{
+                width: 100vw;
+                height: 100vh;
+                background-color: red;
+                border: solid 1px;
+                display: flex;
+                flex-direction: row;
+            }
+        
+            .box-one{
+                width: 200px;
+                height: 200px;
+                background-color: aqua;
+            }
+            .box-two{
+                width: 200px;
+                height: 200px;
+                background-color: pink; 
+            }
+            .box-three{
+                width: 200px;
+                height: 200px;
+                background-color: chartreuse;
+            }
+            .box-four{
+                width: 200px;
+                height: 200px;
+                background-color: indianred;   
+            }
+            .box-five{
+                width: 200px;
+                height: 200px;
+                background-color: moccasin;
+            }
+            .box-six{
+                width: 200px;
+                height: 200px;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+                <table>
+                    <tr>
+                        <td class="box-one">1</td>
+                        <td class="box-four">2</td>
+                        <td rowspan="3" class="box-one">3</td>
+                    </tr>
+                    <tr>
+                        <td class="box-two">1</td>
+                        <td class="box-five">2</td>
+                        <!-- <td class="box-two"></td> -->
+                    </tr>
+                    <tr>
+                        <td class="box-three">1</td>
+                        <td class="box-six">2</td>
+                        <!-- <td class="box-three"></td> -->
+                    </tr>
+                </table>
+        </div>
+    </body>
+</html>
