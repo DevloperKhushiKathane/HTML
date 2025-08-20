@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container{
+            width: 100vw;
+            height: 100vh;
+            border: black 1px solid;
+            background-color: red;
+            display: flex;
+            flex-direction: row;
+        }
+        .div-one{
+            width: 50vw;
+            height: 20vh;
+            background-color: aqua;
+            
+        }
+        .div-two{
+            width: 40vw;
+            height: 20vh;
+            background-color: black;
+        }
+        
+        .div-four{
+            width: 20vw;
+            height: 20vh;
+            background-color: orange;
+        }
+        .div-five{
+            display: flex;
+            flex-direction: row;
+        }
+        .box-one{
+            width: 25vw;
+            height: 20vh;
+            background-color: orangered;
+        }
+        .box-two{
+            width: 25vw;
+            height: 20vh;
+            background-color: yellow;
+        }
+        .box-three{
+            width: 12.5vw;
+            height: 15vh;
+            background-color: yellowgreen;
+        }
+        .box-four{
+            width: 12.5vw;
+            height: 15vh;
+            background-color: aquamarine;
+        }
+        .box-five{
+            width: 12.5vw;
+            height: 15vh;
+            background-color: aquamarine;
+        }
+        .box-six{
+            width: 12.5vw;
+            height: 15vh;
+            background-color: blue;
+        }
+        .div-seven{
+            display: flex;
+        }
+        .div-eight{
+            display: flex;
+        }
+        .box-seven{
+            height: 15vh;
+            width: 25vw;
+            background-color: black;
+        }
+        .box-eight{
+            height: 15vh;
+            width: 25vw;
+            background-color: white;
+        }
+        .div-nine{
+            display: flex;
+        }
+        .box-nine{
+            width: 37.5vw;
+            height: 30vh;
+            background-color: navy;
+        }
+        .box-ten{
+            width:37.5vw ;
+            height: 30vh;
+            background-color:blueviolet;
+        }
+        .div-ten{
+            display: flex;
+        }
+        .bob-one{
+            width: 10vw;
+            height: 20vh;
+            background-color:aqua
+        }
+        .bob-two{
+            width: 10vw;
+            height: 20vh;
+            background-color:chartreuse
+        }
+        .bob-three{
+            width: 10vw;
+            height: 20vh;
+            background-color:pink
+        }
+        .bob-four{
+            width: 10vw;
+            height: 20vh;
+            background-color:orangered
+        }
+        .div-eleven{
+            display: flex;
+        }
+        .bob-five{
+            width: 10vw;
+            height: 15vh;
+            background-color:chartreuse
+        }
+        .bob-six{
+            width: 10vw;
+            height: 15vh;
+            background-color:pink
+        }
+        .bob-seven{
+            width: 10vw;
+            height: 15vh;
+            background-color:orangered
+        }
+        .bob-eight{
+            width: 10vw;
+            height: 15vh;
+            background-color:aqua
+        }
+        .div-twelve{
+            display: flex;
+        }
+        .bob-nine{
+            height: 15vh;
+            width: 10vw;
+            background-color:pink;
+        }
+        .bob-ten{
+            height: 15vh;
+            width: 10vw;
+            background-color:orangered
+        }
+        .bob-eleven{
+            height: 15vh;
+            width: 10vw;
+            background-color:aqua
+        }
+        .bob-twelve{
+            height: 15vh;
+            width: 10vw;
+            background-color:chartreuse
+        }
+        .div-thirteen{
+            display: flex;
+        }
+        .pop-one{
+            width:10vw ;
+            height: 30vh;
+            background-color:orangered;
+        }
+        .pop-two{
+            width:10vw ;
+            height: 30vh;
+            background-color:aqua
+        }
+        .pop-three{
+            width:10vw ;
+            height: 30vh;
+            background-color:chartreuse
+        }
+        .pop-four{
+            width:10vw ;
+            height: 30vh;
+            background-color:pink
+        }
+        .left{
+            display: flex;
+        }
+        .pop-five{
+            width: 10vw;
+            height: 20vh;
+            background-color:aqua
+        }
+        .pop-six{
+            width: 10vw;
+            height: 20vh;
+            background-color:chartreuse
+        }
+        .pop-seven{
+            width: 10vw;
+            height: 20vh;
+            background-color:pink
+        }
+        .pop-eight{
+            width: 10vw;
+            height: 20vh;
+            background-color:orangered
+        }
+        .pop-nine{
+            width: 20vw;
+            height: 20vh;
+            background-color:yellow
+        }
+        .pop-ten{
+            width: 20vw;
+            height: 15vh;
+            background-color:crimson;
+        }
+        .pop-eleven{
+            width: 20vw;
+            height:15vh;
+            background-color:yellow
+        }
+        .left-one{
+            display: flex;
+        }
+        .tom-one{
+            width: 10vw;
+            height: 30vh;
+            background-color:hotpink
+        }
+        .tom-two{
+            width: 10vw;
+            height: 30vh;
+            background-color:yellowgreen
+        }
+        .right{
+            display: flex;
+        }
+        .tom-three{
+            width: 10vw;
+            height: 20vh;
+            background-color:aqua
+        }
+        .tom-four{
+            width: 10vw;
+            height: 20vh;
+            background-color:darkblue
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="div-one">
+            <div class="div-five">
+                <div class="box-one"></div>
+                <div class="box-two"></div>
+            </div>
+            <div class="div-seven">
+                <div class="box-three"></div>
+                <div class="box-four"></div>
+                <div class="box-five"></div>
+                <div class="box-six"></div>
+            </div>
+            <div class="div-eight">
+                <div class="box-seven"></div>
+                <div class="box-eight"></div>
+            </div>
+            <div class="div-nine">
+                <div class="box-nine"></div>
+                <div class="box-ten"></div>
+            </div>
+            <div class="div-five">
+                <div class="box-one"></div>
+                <div class="box-two"></div>
+            </div>
+        </div>
+        <div class="div-two">
+          <div class="div-ten">
+            <div class="bob-one"></div>
+            <div class="bob-two"></div>
+            <div class="bob-three"></div>
+            <div class="bob-four"></div>
+          </div>  
+          <div class="div-eleven">
+            <div class="bob-five"></div>
+            <div class="bob-six"></div>
+            <div class="bob-seven"></div>
+            <div class="bob-eight"></div>
+          </div>
+          <div class="div-twelve">
+            <div class="bob-nine"></div>
+            <div class="bob-ten"></div>
+            <div class="bob-eleven"></div>
+            <div class="bob-twelve"></div>
+        </div>
+        <div class="div-thirteen">
+            <div class="pop-one"></div>
+            <div class="pop-two"></div>
+            <div class="pop-three"></div>
+            <div class="pop-four"></div>
+        </div>
+        <div class="left">
+            <div class="pop-five"></div>
+            <div class="pop-six"></div>
+            <div class="pop-seven"></div>
+            <div class="pop-eight"></div>
+        </div>
+        </div>
+        
+        
+        <div class="div-four">
+            <div class="pop-nine"></div>
+            <div class="pop-ten"></div>
+            <div class="pop-eleven"></div>
+            <div class="left-one">
+                <div class="tom-one"></div>
+                <div class="tom-two"></div>
+            </div>
+            <div class="right">
+                <div class="tom-three"></div>
+                <div class="tom-four"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
