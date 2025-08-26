@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: box-border;
+    font-family: Arial
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid blue;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    border: 1.5px solid transparent ;
+}
+.box:hover{
+    border: 1.5px solid red;
+}
+.navlogo {
+    height: 50px;
+    width: 130px;
+}
+
+.logo {
+    background-image: url(https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box-2 */
+.nav-address {
+    height: 60px;
+    width: 196px;
+}
+
+.add-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.first-add {
+    color: cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.second-add {
+    font-size: 1rem;
+    margin-left: 15px;
+}
+/* 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    /* width: 50%; */
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-top-left-radius:4px;
+    border: none;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-input{
+width: 100%;
+border: none;
+font-size: 1rem;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+/* 4,5*/
+span{
+    font-size: 0.85rem;
+
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700px;
+}
+/* 6 */
+.nav-cart{
+    font-size: 1.5rem;
+    font-weight: 700px;
+}
+/* 1 */
+.div-two{
+    height: 39px;
+    width: 100vw;
+    background-color: #0f1111;
+    color: white;
+}
+.panel-opts{
+    width: 100%;
+    font-size: 0.85rem;
+}
+.panel-opts p{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 21px;
+}
+/* 1 */
+.hero-section{
+    height: 320px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/uber_new_high._CB537689643_.jpg);
+    background-size: cover;
+}
+/* 1 */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+}
