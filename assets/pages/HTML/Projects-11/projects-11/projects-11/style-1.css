@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: box-border;
+    font-family: italian
+}
+
+.navbar {
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-class {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.nav-opts p {
+    display: inline;
+    justify-content: center;
+    margin-left: 80px;
+}
+.nav-opts{
+    font-size: 1rem;
+    width: 65%;
+}
+.nav-button{
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.div-one{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.box-3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
