@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 90px;
+}
+.nav-logo{
+    height: 0px;
+    width: 100px;
+    font-family: 1.2rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.logo{
+    height: 60px;
+    
+}
+.nav-opts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.nav-opts p{
+    font-size: 1rem;
+    margin: 10px;
+}
+.nav-search{
+    font-weight: 700px;
+    font-size: 0.85rem;
+    color: white;
+    
+}
+input p{
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+input {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+}
+input{
+    border: 2px solid transparent;
+}
+input:hover{
+    border: 2px solid rgb(255, 191, 0);
+}
+button{
+    background-color:rgb(255, 191, 0) ;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+}
+.div-one{
+    height: 320px;
+    width: 100vw;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box-1{
+    height: 300px;
+    width: 300px;
+    border: 2px black solid;
+    background-image: url(https://cdn.shopify.com/s/files/1/0491/2165/6981/files/Eco-Friendly_and_Sustainable_480x480.webp?v=1733402305);
+    background-size: cover;
+}
+.box-2{
+    height: 300px;
+    width: 300px;
+    border: 2px black solid;
+    background-image: url(https://t3.ftcdn.net/jpg/03/08/27/68/360_F_308276882_ID4TYtcA0WrZOQxNgsaY7jRBB28bXiWg.jpg);
+    background-size: cover;
+}
+.box-3{
+    height: 300px;
+    width: 300px;
+    border: 2px black solid;
+    background-image: url(https://interiosplash.com/wp-content/uploads/2024/10/9_11zon.webp);
+    background-size: cover;
+}
+.div-1{
+    height: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-two{
+    height: 300px;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:15px ;
+}
+.box{
+    height: 240px;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    border: black 2px solid;
+    border-radius: 7px;
+}
+.box-img{
+    margin: 0;
+height: 180px;
+width: 240px;
+border-radius: 4px;
+background-color: chartreuse;
+}
