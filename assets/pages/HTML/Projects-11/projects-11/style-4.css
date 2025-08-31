@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: rgb(2, 2, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 70px;
+    width: 300px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    height: 70px;
+    width: 80px;
+    background-image: url(https://thumbs.dreamstime.com/b/chef-logo-restaurant-hat-monogram-cook-knife-382527927.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.nav-opts {
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.nav-opts p {
+    margin: 10px;
+}
+.nav-search{
+    font-size: 1.5rem;
+}
+
+.button {
+    padding: 5px;
+    background-color: rgb(255, 191, 0);
+    border: solid 2px rgb(255, 191, 0);
+}
+
+.div-one {
+    height: 440px;
+    width: 100vw;
+    background-color: rgb(2, 2, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two {
+    height: 390px;
+    width: 500px;
+    border: black 2px solid;
+    background-image: url(https://www.venuelook.com/_next/image?url=https%3A%2F%2Fcdn.venuelook.com%2Fuploads%2Fspace_38859%2F1715151394_595x400.png&w=640&q=75)
+}
+
+.three {
+    height: 390px;
+    width: 300px;
+    border: black 2px solid;
+    background-image: url(https://i.pinimg.com/736x/a0/11/1d/a0111d57bd5167d429470775af5e4da9.jpg);
+    background-size: cover;
+
+}
+
+.four {
+    height: 390px;
+    width: 500px;
+    border: black 2px solid;
+    background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2023/02/600X400-min-2-6.jpg);
+    background-size: cover;
+}
+
+.div-two {
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-three {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.five {
+    height: 250px;
+    width: 16.66%;
+    border: black 2px solid;
+    border-radius: 7px;
+}
+.six {
+    height: 250px;
+    width: 16.66%;
+    border: black 2px solid;
+    margin: 1%;
+    border-radius: 7px;
+}
+.seven {
+    height: 250px;
+    width: 16.66%;
+    border: black 2px solid;
+    margin: 1%;
+    border-radius: 7px;
+}
+.eight {
+    height: 250px;
+    width: 16.66%;
+    border: black 2px solid;
+    margin: 1%;
+    border-radius: 7px;
+}
+.nine {
+    height: 250px;
+    width: 16.66%;
+    border: black 2px solid;
+    margin: 1%;
+    border-radius: 7px;
+}
+.ten {
+    height: 250px;
+    width: 16.66%;
+    border: black 2px solid;
+    border-radius: 7px;
+}
+.div-1{
+    height: 200px;
+background-image: url(https://atanurrannagharrecipe.com/wp-content/uploads/2023/01/Veg-Manchurian-for-website.jpg);
+background-size: cover;
+}
+.div-2{
+    height: 200px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyPerPTmvf6pSWIP366tHZDBCwXHAjYnfNw&s);
+    background-size: cover;
+}
+.div-3{
+    height: 200px;
+    background-image: url(https://www.sharmispassions.com/wp-content/uploads/2015/12/alfredopasta5-500x500.jpg);
+    background-size: cover;
+}
+.div-4{
+    height: 200px;
+    background-image: url(https://c.ndtvimg.com/2021-03/7hvjsmf8_poha_625x300_19_March_21.jpg);
+    background-size: cover;
+}
+.div-5{
+    height: 200px;
+    background-image: url(https://www.indianhealthyrecipes.com/wp-content/uploads/2021/11/pav-bhaji.jpg);
+    background-size: cover;
+}
+.div-6{
+    height: 200px;
+    background-image: url(https://www.tasteofhome.com/wp-content/uploads/2025/04/Turkey-Club-Sandwich_FT25_278726_EC_0408_5.jpg?fit=700,1024);
+    background-size: cover;
+}
+button{
+    padding: 5px;
+    background-color: rgb(255, 179, 0);
+    color: black;
+    border-radius: 5px;
+}
+input{
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
