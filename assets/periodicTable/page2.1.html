@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS LAYOUTING</title>
+    <style>
+        .main-container{
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+            display: flex;
+        }
+        .left{
+            height: 100%;
+            width: 50%;
+            background-color: blue;
+            display: flex;
+            flex-direction: column;
+        }
+        .right{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(241, 0, 241);
+            display: flex;
+            flex-direction: column;
+        }
+        .left-top{
+            height: 100%;
+            width: 100%;
+            background-color: blue;
+            display: flex;
+        }
+        .box-1{
+            height: 100%;
+            width: 50%;
+            background-color: black;
+        }
+        .box-2{
+            height: 100%;
+            width: 50%;
+            background-color: red;
+        }
+        .left-midd{
+            height: 100%;
+            width: 100%;
+            background-color: yellow;
+        }
+        .left-bottom{
+            height: 100%;
+            width: 100%;
+            background-color: magenta;
+            display: flex;
+            flex-direction: row;
+        }
+        .box-three{
+            height: 100%;
+            width: 33.33%;
+            background-color: magenta;
+        }
+        .box-four{
+            height: 100%;
+            width: 33.33%;
+            background-color: aliceblue;
+        }
+        .box-five{
+            height: 100%;
+            width: 33.33%;
+            background-color: pink;
+        }
+        .right-top{
+            height: 100%;
+            width: 100%;
+            background-color: violet;
+        }
+        .right-bottom{
+            height: 100%;
+            width: 100%;
+            background-color: grey;
+            display: flex;
+        }
+        .right-bottom-left{
+            height: 100%;
+            width: 50%;
+            background-color: brown;
+        }
+        .right-bottom-right{
+            height: 100%;
+            width: 50%;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="left">
+            <div class="left-top">
+                <div class="box-1"></div>
+                <div class="box-2"></div>
+            </div>
+            <div class="left-midd"></div>
+            <div class="left-bottom">
+                <div class="box-three"></div>
+                <div class="box-four"></div>
+                <div class="box-five"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-top"></div>
+            <div class="right-bottom">
+                <div class="right-bottom-left"></div>
+                <div class="right-bottom-right"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

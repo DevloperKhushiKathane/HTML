@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS layout</title>
+    <style>
+        .main-container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            background-color: palevioletred;
+        }
+        .top{
+            height: 30%;
+            width: 100%;
+        }
+        .bottom{
+            height: 70%;
+            width: 100%;
+            background-color: yellow;
+            display: flex;
+        }
+        .bottom-left{
+            height: 100%;
+            width: 20%;
+            background-color: yellow;
+        }
+        .bottom-right{
+            height: 100%;
+            width: 80%;
+            background-color: red;
+        }
+        .bottom-top{
+            height: 33.3%;
+            width: 100%;
+            background-color: black;
+            display: flex;
+        }
+        .box-1{
+            height: 100%;
+            width: 33.3%;
+            background-color: red;
+        }
+        .box-2{
+            height: 100%;
+            width: 33.3%;
+            background-color: yellowgreen;
+        }
+        .box-3{
+            height: 100%;
+            width: 33.4%;
+            background-color: blue;
+        }
+        .bottom-middle{
+            height: 33.3%;
+            width: 100%;
+            background-color: green;
+        }
+        .bottom-down{
+            height: 33.3%;
+            width: 100%;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="top"></div>
+        <div class="bottom">
+            <div class="bottom-left"></div>
+            <div class="bottom-right">
+                <div class="bottom-top">
+                    <div class="box-1"></div>
+                    <div class="box-2"></div>
+                    <div class="box-3"></div>
+                </div>
+                <div class="bottom-middle"></div>
+                <div class="bottom-down"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
